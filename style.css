@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo img{
+    display: flex;
+    height: 30px;
+    position: relative;
+}
+.id b{
+    margin-left: -440px;
+    font-size: 30px;
+   
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+button{
+    color: white;
+    height: 50px;
+    width: 170px;
+   border-radius: 30px;
+   background-color: black;
+   margin-top: 30px;
+}
+.id button:hover{
+    color: black;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.txt { 
+    border: 1px solid white;
+    position: absolute;
+    text-align: left;
+    padding-left: 150px;
+    margin-top: 100px;
+}
+.txt h1{
+    font-size: 50px;
+    border: 1px solid white;
+}
+.txt p{
+    margin: 10px 0 10px;
+    padding-top: 20px;
+    border: 1px solid white;
+}
+.about-txt{
+    border: 1px solid white;
+    color: black;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about-image{
+    flex: 1;
+    margin-left: 1200px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.about-image img{
+    border: 1px solid white;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 650px;
+    height: 550px;
+}
+.pics{
+    width: 100%;
+    gap: 200px;
+    display: flex;
+    padding-left: 300px ;
+    margin-top: 40px;
+
+    
+}
+.about{
+    display: flex;
+    border: 1px solid black;
+}
+.cmd h1{
+    border: 1px solid white;
+    background-color: green;
+    color: black;
+}
+.shab h3{
+    border: 1ps solid white;
+    background-color: green;
+
+}
+@media only screen and (max-width: 600px;){
+    .navbar{  
+        width: 100%;
+        min-width: auto;
+        display: block;
+    }
+    .about-image{
+        width: 100%;
+        min-height: 100px;
+    }
+    .logo img{
+        width: 100%;
+        min-height: 100px;
+        display: block;
+    }
+    .id b{
+        margin-left: -440px;
+        font-size: 30px;
+        display: block;
+       
+    }
+    .txt h1{
+        width:100%;
+        min-height: auto;
+    }
+    .txt p{
+        width: 100%;
+        min-width: auto;
+        display: block;
+        color: #f3f3f3;
+    }
+
+
+    
+}
